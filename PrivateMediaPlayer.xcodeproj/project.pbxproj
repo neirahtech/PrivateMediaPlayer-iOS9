@@ -1,0 +1,27 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 46;
+ objects = {
+  A10000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {LastUpgradeCheck = 1200; ORGANIZATIONNAME = NeirahTech; }; buildConfigurationList = A10000000000000000000002; compatibilityVersion = "Xcode 3.2"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A10000000000000000000003; productRefGroup = A10000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (A1000000000000000000000E,); };
+  A10000000000000000000003 = {isa = PBXGroup; children = (A10000000000000000000006, A10000000000000000000007, A10000000000000000000004,); sourceTree = "<group>"; };
+  A10000000000000000000004 = {isa = PBXGroup; children = (A10000000000000000000008,); name = Products; sourceTree = "<group>"; };
+  A10000000000000000000006 = {isa = PBXGroup; children = (A10000000000000000000009, A1000000000000000000000A,); path = PrivateMediaPlayer; sourceTree = "<group>"; };
+  A10000000000000000000007 = {isa = PBXGroup; children = (); name = Frameworks; sourceTree = "<group>"; };
+  A10000000000000000000008 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  A10000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+  A1000000000000000000000A = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  A1000000000000000000000B = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  A1000000000000000000000C = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000D,); runOnlyForDeploymentPostprocessing = 0; };
+  A1000000000000000000000D = {isa = PBXBuildFile; fileRef = A10000000000000000000009; };
+  A1000000000000000000000E = {isa = PBXNativeTarget; buildConfigurationList = A1000000000000000000000F; buildPhases = (A1000000000000000000000C, A1000000000000000000000B,); buildRules = (); dependencies = (); name = PrivateMediaPlayer; productName = PrivateMediaPlayer; productReference = A10000000000000000000008; productType = "com.apple.product-type.application"; };
+  A10000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000011, A10000000000000000000012,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A1000000000000000000000F = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000013, A10000000000000000000014,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A10000000000000000000011 = {isa = XCBuildConfiguration; buildSettings = {}; name = Debug; };
+  A10000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = {}; name = Release; };
+  A10000000000000000000013 = {isa = XCBuildConfiguration; buildSettings = {INFOPLIST_FILE = PrivateMediaPlayer/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 9.0; PRODUCT_BUNDLE_IDENTIFIER = com.neirahtech.PrivateMediaPlayer; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = "1,2"; SDKROOT = iphoneos; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_MODULES = YES; }; name = Debug; };
+  A10000000000000000000014 = {isa = XCBuildConfiguration; buildSettings = {INFOPLIST_FILE = PrivateMediaPlayer/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 9.0; PRODUCT_BUNDLE_IDENTIFIER = com.neirahtech.PrivateMediaPlayer; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = "1,2"; SDKROOT = iphoneos; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_MODULES = YES; }; name = Release; };
+ };
+ rootObject = A10000000000000000000001;
+}
